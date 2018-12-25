@@ -2,6 +2,15 @@
 
 ## Installation
 
+### normal
+
+```
+mix deps.get
+iex -S mix
+```
+
+### docker
+
 run
 ```
 docker build -t simple-server .
